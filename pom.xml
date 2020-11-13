@@ -147,6 +147,12 @@
             <optional>true</optional> <!-- 表示依赖不会传递 -->
         </dependency>
 
+        <!-- springboot 暴露监控端点 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
